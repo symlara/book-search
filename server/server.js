@@ -20,7 +20,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   // This ensures that every request performs an authentication check, and the updated request object will be passed to the resolvers as the context
-  // context: authMiddleware
+  context: authMiddleware
 });
 
 // integrate our apollo server with the Express application middleware
