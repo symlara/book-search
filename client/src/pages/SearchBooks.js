@@ -108,16 +108,16 @@ const SearchBooks = () => {
         </Container>
       </Jumbotron>
 
-      <Container>
+      <Container className="container">
         <h2>
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
             : 'Search for a book to begin'}
         </h2>
-        <CardColumns>
+        <CardColumns className="card-columns">
           {searchedBooks.map((book) => {
             return (
-              <Card key={book.bookId} border='dark'>
+              <Card key={book.bookId} border='dark' className="card-body">
                 {book.image ? (
                   <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' />
                 ) : null}
