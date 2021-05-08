@@ -18,4 +18,4 @@ It was built with MERN stack using React on the front-end.
 * Express.js server and API
 
 ## Contributions ✏️ 💻
-<a href="https://www.linkedin.com/in/aaliyah-symlar-931213102" target="_blank">Aaliyah Symlar</a>
+<a href="https://www.linkedin.com/in/aaliyah-symlar-931213102" target="_blank" rel="noopener noreferrer">Aaliyah Symlar</a>
