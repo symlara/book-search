@@ -1,13 +1,14 @@
 const { User, BookInput } = require('../models');
 
+// error handling
 const { AuthenticationError } = require('apollo-server-express');
 
-
+// import the token function from utils
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
     Query: {
-       
+        // read request header for jwt
         me: async (parent, args, context) => {
             if (context.user) {
                 const userData = await User.findOne({_id: context.user._id})
@@ -30,7 +31,7 @@ const resolvers = {
 
             return { token, user };
         },
-        
+        // verifies user exits and issues them a token
         login: async (parent, {email, password}) => {
             const user = await User.findOne({email});
 
@@ -62,7 +63,7 @@ const resolvers = {
 
             throw new AuthenticationError('You need to be logged in!');
         },
-   
+        // remove a book
         removeBook: async (parent, { bookId }, context) => {
             if (context.user) {
                 const removeBook = await User.findByIdAndUpdate(
