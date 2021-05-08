@@ -8,6 +8,8 @@ This is a Google books search engine built with GrapghQL API and the Apollo Serv
 It was built with MERN stack using React on the front-end. 
 
 ## Usage 💻
+<a href="https://booksearchingengine.herokuapp.com/">https://booksearchingengine.herokuapp.com/</a>
+
 <img width="1411" alt="Screen Shot 2021-05-08 at 2 28 38 PM" src="https://user-images.githubusercontent.com/40181569/117551129-c0286880-b009-11eb-811f-3a14189b66e7.png">
 
 
