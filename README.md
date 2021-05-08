@@ -17,5 +17,5 @@ It was built with MERN stack using React on the front-end.
 * Node.js
 * Express.js server and API
 
-## Contributions
+## Contributions ✏️ 💻
 <a href="https://www.linkedin.com/in/aaliyah-symlar-931213102" target="_blank">Aaliyah Symlar</a>
